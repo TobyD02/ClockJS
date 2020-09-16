@@ -22,6 +22,7 @@ function draw(){
     if (hour >= 12){
         hour -= 12;
     }
+    /*
 
     ctx.font = "20px Arial";
 
@@ -46,6 +47,7 @@ function draw(){
         ctx.fillText(".", Math.sin(x) * (radius + 5) + (canvas.width / 2 - 4), Math.cos(x - Math.PI) * (radius + 5) + (canvas.height / 2 + 2));
         }
     }
+    */
 
 
 
@@ -53,8 +55,6 @@ function draw(){
     minAng = (min * Math.PI / 30) + (sec * Math.PI / 30 / 60);
     hourAng = (hour * Math.PI / 6);
     
-
-    //console.log(hourAng);
 
     ctx.lineWidth = 4;
 
